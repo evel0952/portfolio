@@ -1,0 +1,39 @@
+
+ *{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+  /* NAVIGATION BAR */
+li {
+    list-style: none;
+    font-family: serif;
+    font-weight: 100;
+    font-style: normal;
+    color: red;
+    font-size: 1.2rem;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 24px;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 100%;
+  }
+
+ 
