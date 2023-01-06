@@ -185,7 +185,23 @@ a:hover{
     margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    font-family: serif;
+    color: red;
+    font-size: 140px;
+    font-weight: bold;
 }
+
+.hero-text2{
+  font-family: 'PT Serif', serif;
+    color: red;
+    font-size: 60px;
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+
+
 
 @media (max-width: 800px) { 
   .hero-image {
@@ -203,7 +219,7 @@ a:hover{
     h1 {
       font-family: serif;
       color: red;
-      font-size: 70px;
+      font-size: 60px;
     }
 
     h2 {
@@ -213,13 +229,32 @@ a:hover{
     
     }
 
+    h4 {
+      font-family: 'PT Serif', serif;
+      color: red;
+      font-size: 20px;
+    
+    }
+
+    .emnesite-text {
+      text-align: left;
+      position: absolute;
+      top: 0%;
+      left: 10%;
+    }
+
+    .hero-image-emnesite {
+      background-size: cover;
+      position: ;
+    }
+
 }
 
 /* HOOVER */
     
 .hero-text:hover {
     box-shadow: inset 100px 0 0 0 #DADADA;
-    color: white;
+    color: red;
   }
  
   
@@ -234,16 +269,21 @@ h3 {
 
 h4 {
   font-family: 'PT Serif', serif;
-  color: red;
-  font-size: 40px;
+  color: black;
+  font-size: 20px;
   padding-bottom: 10px;
   
 }
 
   .text_minportfolio {
-   padding-top: 15rem;
+   padding-top: 20rem;
    text-align: center;
    padding-bottom: 25rem;
+   font-family: serif;
+   font-size: 80px;
+   color: red;
+   font-weight: bold;
+
    
   }
 
@@ -294,16 +334,27 @@ h4 {
 
 @media (max-width: 800px) { 
   .row .right .content {
-    padding-left: 0;}
+    padding-left: 0;
+    
+  }
 
     .row {
-      width: 90%;
       grid-template-columns: 1fr;
+      
     }
+
+    .text_minportfolio {
+    font-size: 40px;
+  }
+
+  .hero-text {
+    font-size: 30px;
+  }
+ 
 }
 
-/* KNAPP */
 
+/* KNAPP */
 
 
 button {
@@ -346,3 +397,57 @@ button.slide_from_left::after {
   left: -100%;
   right: 100%;
 }
+
+/* EMNESITE */
+
+
+.hero-image-emnesite {
+  background-image: url(img/Emnesite\ mockup.png);
+    background-position: right;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 60%;
+   
+  }
+
+  .emnesite-text {
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+  }
+
+  .hero-image-emnesite2 {
+    background-image: url(img/emnesite_moodboard.png);
+    background-position: left;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 60%;
+  }
+
+  .hero-image-emnesite3 {
+    background-image: url(img/emnesite_styletile.png);
+    background-position: right;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10%;
+  }
+
+  .hero-image-emnesite4 {
+    background-image: url(img/emnesite_wireframes.png);
+    background-position: left;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 15%;
+    left: 10%;
+  }
+
+ 
