@@ -172,6 +172,17 @@ a:hover{
     right: 10%;
   }
 
+  .hero-image3 {
+    background-image: url(img/ommegselv.webp);
+    background-position: right;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10%;
+    right: 10%;
+  }
+
   .hero-text {
     text-align: left;
     position: absolute;
@@ -187,7 +198,7 @@ a:hover{
     font-weight: bold;
 }
 
-.hero-text2{
+.hero-text1{
   font-family: 'PT Serif', serif;
     color: red;
     font-size: 60px;
@@ -201,7 +212,6 @@ a:hover{
 
 @media (max-width: 800px) { 
   .hero-image {
-    background-image: url(img/new.png);
     background-size: cover;
     
  }
@@ -260,6 +270,14 @@ h4 {
   font-family: serif;
   color: red;
   font-size: 20px;
+  padding-bottom: 10px;
+  
+}
+
+h5 {
+  font-family: serif;
+  color: red;
+  font-size: 15px;
   padding-bottom: 10px;
   
 }
@@ -370,23 +388,6 @@ button.slide_from_left::after {
 
 /* EMNESITE */
 
-
-.hero-image-emnesite {
-  
-    height: 70%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    top: 60%;
-   
-  }
-
-  .emnesite-text {
-    text-align: left;
-    position: absolute;
-    top: 80%;
-    left: 15%;
-  }
 
  
 .text_tittel {
@@ -525,6 +526,20 @@ button.slide_from_left::after {
   }
  
 }
+
+.main_video {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
 
 /* FOOTER */
 
