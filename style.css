@@ -128,7 +128,7 @@ a:hover{
 
   .nav-menu {
     position: fixed;
-    transform: translatex();
+    
     left: -100%;
     top: 30px;
     gap: 0;
@@ -544,6 +544,10 @@ button.slide_from_left::after {
 
   .grid_1_1_tema .right img {
    height: 100%;
+  }
+
+  .grid_1_1_tema .left .content p {
+    padding-top: 60px;
   }
  
 }
