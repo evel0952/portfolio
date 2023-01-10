@@ -61,7 +61,7 @@ a:hover{
 
 
 .navbar {
-  min-height: 70px;
+  min-height: 50px;
   display: flex;
   justify-content: right;
   align-items: center;
@@ -175,7 +175,7 @@ a:hover{
   .hero-image3 {
     background-image: url(img/ommegselv.webp);
     background-position: right;
-    height: 90%;
+    height: 95%;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
@@ -247,6 +247,12 @@ a:hover{
       
     }
 
+    .tekst_ommeg{
+      margin-left: 0;
+      margin-right: 0;
+
+}
+
 }
 
 /* HOOVER */
@@ -279,6 +285,17 @@ h5 {
   color: red;
   font-size: 15px;
   padding-bottom: 10px;
+  
+}
+
+h6 {
+  font-family:'PT Serif', serif;
+  color: red;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+
+
   
 }
 
@@ -336,7 +353,7 @@ h5 {
   color: black;
   font-size: 15px;
   line-height: 26px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 
@@ -527,25 +544,53 @@ button.slide_from_left::after {
  
 }
 
-.main_video {
-  padding-left: 30px;
-  padding-right: 30px;
+/* OMMEG */
+
+.image_ommeg {
+width: 30rem; }
+
+.tekst_ommeg {
+  margin-top: 10rem;
+  margin-bottom: 7rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+ 
 }
 
-video {
-  width: 100%;
-  height: auto;
+.left_ommeg{
+  padding-left: 85px;
 }
 
+@media (max-width: 800px) { 
+.tekst_ommeg {
+  margin-top: 10rem;
+  margin-left: 10px;
+  margin-right: 15px;}
 
+  .left_ommeg{
+    padding-left: 0;
+  }
 
+  .hero-image3{
+   background-size: cover;}
 
+   .image_ommeg {
+    width: 20rem;
+    align-items: center;
+    padding-left: 120px; }
+
+    h6{
+      text-align: center;
+    }
+  
+
+}
 
 /* FOOTER */
 
 footer {
 
-  background: rgb(243, 233, 233);
+  background: rgb(243, 243, 243);
   height: auto;
   font-family: 'PT Serif', serif;
   padding: 40px 0;
